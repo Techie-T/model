@@ -1,0 +1,277 @@
+body{
+    background: linear-gradient(160deg,red, gold, beige);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    display: flex;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.name{
+    padding-right: 235px;
+    margin-left: 30px;
+}
+
+.name2{
+    padding-right: 240px;
+    margin-left: 20px;
+}
+
+.date{
+    margin-left: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ag{
+    margin-left: 15px;
+}
+
+.age{
+    margin-left: 13px;
+    padding-left: 15px;
+}
+
+.address{
+    margin-left: 45px;
+    padding-right: 240px;
+}
+
+.street{
+    margin-left: 70px;
+    padding-right: 240px;
+}
+
+.city{
+    margin-left: 80px;
+}
+
+.state{
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.zip{
+    margin-left: 5px;
+    padding-right: 240px;
+}
+
+.num{
+    margin-left: 5px;
+    padding-right: 230px;
+}
+
+.email{
+    margin-left: 5px;
+    padding-right: 240px;
+}
+
+.parent{
+    font-weight: bold;
+}
+
+.full{
+    margin-left: 30px;
+    padding-right: 240px;
+}
+
+.phone{
+    margin-left: 5px;
+    padding-right: 227px;
+}
+
+.email2{
+    margin-left: 15px;
+    padding-right: 227px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.height{
+    margin-left: 60px;
+    padding-right: 240px;
+}
+
+.weight{
+    margin-left: 58px;
+    padding-right: 238px;
+}
+
+.dress{
+    margin-left: 40px;
+    padding-right: 236px;
+}
+
+.shoe{
+    margin-left: 40px;
+    padding-right: 240px;
+}
+
+.size{
+    margin-left: 10px;
+    padding-right: 218px;
+}
+
+ .education{
+    margin-left: 30px;
+    padding-right: 240px;
+ }
+
+.school{
+    margin-left: 16px;
+    padding-right: 240px;
+}
+
+.grade{
+    margin-left: 27px;
+    padding-right: 240px;
+}
+
+.study{
+    margin-left: 15px;
+    padding-right: 197px;
+}
+
+.job{
+    margin-left: 25px;
+    padding-right: 230px;
+}
+
+.hobby{
+    margin-left: 15px;
+    padding-right: 163px;
+}
+
+.lang{
+    margin-left: 33px;
+    padding-right: 170px;
+}
+
+.prev{
+    margin-left: 10px;
+    padding-right: 120px;
+}
+
+.pp{
+    margin-left: 20px;
+    padding-right: 195px;
+}
+
+.year{
+    margin-left: 20px;
+    padding-right: 276px;
+}
+
+.won{
+    margin-left: 10px;
+    padding-right: 170px;
+}
+
+.model{
+    margin-top: 10px;
+    padding-right: 345px;
+}
+.rel{
+    margin-left: 10px;
+    padding-right: 245px;
+}
+
+.thee{
+    text-align: center;
+    font-size: 19px;
+}
+.why{
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-right: 345px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.what{
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-right: 345px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.any{
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-right: 345px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.how{
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-right: 345px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.date{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.head{
+    margin-left: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.full{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.age{
+    margin-left: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.submit{
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15, box-shadow;
+}
+
+.submit:hover{
+    color: black;
+    background-color: white ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.submit:active{
+    background-color: red ;
+    color: aqua;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}

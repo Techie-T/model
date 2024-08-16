@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>model signup page</title>
+    <link rel="stylesheet" href="style/hypertext.css">
+</head>
+<body>
+
+    <!--whole code-->
+    <div>
+        <!-- head code -->
+        <div>
+            <!--direct children-->
+            <hr class="hr">
+            <div class="main">
+                <img class="menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgCAMAAAC8EZcfAAAAXVBMVEX///8iICEAAADh4eGura5IR0ccGhvd3NwkHyEjHSAJAAMhHiAFAAPw8PD6+vrp6ekUERPLy8tRUFCPjo9dXV1jYmIzMTEfGRt3d3dZWFjCwsKFhIWdnZ2joqMoJidsvIe3AAABTUlEQVR4nO3bW4+CMBCG4RYQKy3CnnQP7v7/n2krSNyEZLWzk2XN+9z4pQEzSVsvJqMxAAAAAAAAAAAA+G/aStuDqL5Doe+xzK9v3ddWXfO0zS7wM+jXZ/vnNrvAqrDWOe0CX/ILbHeh3u9rVX2osuszpnxdaXuT1GfMttTWieoDAAAAAAC4Z2251lV2+e3L6H1VNIMQwi+n8bP/yG8Pmu6r95uB92Ny9pz8lFyMm2nxpuTrcJC1gN3AXpncxZq75g1RC3jqUTs7NoLdTLIzae652XdlPeq4xfEb0lbauCcxxT31pxTzjym9mdJQjL9M/pysFW3xcEnSyQ7T0Q7Tab89fb8fp7VCdEmW/zMDAAAAAABwz5Y+nrf0Acd21+jOh0pHRNOQrTrJkO0hWK8/BSxoAadBb/UCJYPeix+VX/6fDQAAAAAAAAAAAPCnjgHvLfQtw1M9AAAAAElFTkSuQmCC" alt="menu">
+                <img class="hero-section" src="img/logo.JPG" alt="logo">
+                <button class="product"> Products</button>
+                <button class="search"><img class="search2" src="data:image/jpeg;base64,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" alt="search"></button>
+            </div>
+        </div>
+
+            <!-- sign up site -->
+            <div class="body">
+            <!-- direct children-->
+            <div class="container">
+                <!-- direct children-->
+                <h1>WELCOME TO
+                    STUDIO BROCELLE</h1>
+                    <div class="ins">
+                        <span> By clicking "Sign up", you agree to our <a href="test .html">terms of service</a></span>
+                        <span>
+                            and acknowlegding you have read our <a href="Learn.html">Privacy policy</a>
+                        </span>
+                    </div>
+                <form id="sign-in-to-form">
+
+                <div class="form">
+                    <!-- direct children-->
+                    <label for="Username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form">
+                    <!-- direct children-->
+                    <label for="Password">Password:</label>
+                    <input type="password" id="password" name="password" required><br>
+                    <span class="instruct"> Must contain 8+ characters, including at least 1 letter
+                    <br>and 1 number</span>
+                </div>
+
+                <div class="form">
+                    <!-- direct children-->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="submit">Sign up </button>
+                <br>
+                <hr>
+                <div>
+                    <button class="go"><img class="google" src="https://t3.ftcdn.net/jpg/03/88/07/84/240_F_388078454_mKtbdXYF9cyQovCCTsjqI0gbfu7gCcSp.jpg">Sign up with Google</button><br>
+                    <button class="logo"><img class="image" src="C:\Users\HP\Desktop\treasure file dont touch\img\ig2.JPG" alt="logo">Sign up with Instagram</button>
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        <!--footer-->
+        <div class="hero">
+            <!--direct children-->
+            Already have an account?<a class="login" href="hypertext2.html">Log in</a><br><br>
+            Are you an employer? <a class="login" href="hypertext.html">Sign up on Talent</a>
+            <br>
+            <br>
+            <hr>
+        <div class="final">
+            <img class="img2" src="img/logo.JPG">
+            <span class="model">STUDIO BROCELLE</span>
+            <br>
+        </div>
+        <div class="last">    
+            <span class="p">
+                <img class="share" src="img/people.JPG"> invite friends to the pageant and earn rewards!
+            </span><br><br>
+
+            <span>
+                <img class="save" src="img/save.JPG"> Save your favorite posts, tags and filters
+            </span><br><br>
+            <span>
+                <img class="cup" src="img/cup.JPG"> perform best and earn reputation
+            </span>
+        </div>
+        Collaborate and share knowledge with private group for FREE.
+            <a href="https://wa.me/+2349135206161" target="_blank" rel="noopener noreferrer"> Get Studio Barcelle for Teams for up to 50 users</a>
+    </div>
+</body>
+</html>
