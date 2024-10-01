@@ -1,255 +1,279 @@
-.body{
-    background-color: #f4f4f4;
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
-    align-items: center;
-    height: 110vh;
-    margin: 0;
+.body {
+  background-color: #f4f4f4;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  margin: 0;
 }
-.main{
-    display: flex;
-    justify-content: space-between;
+.black {
+  color: black;
 }
-.hr{
-    padding-top: 3px;
-    background-color: purple;
-    margin-top: none;
+a {
+  text-decoration: none;
 }
-
-.menu{
-    vertical-align: middle;
-    width: 30px;
-    cursor: pointer;
-    transition: box-shadow 0.15s;
+ul {
+  list-style-type: none;
 }
-
-.menu:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+.main ul {
+  display: flex;
+  gap: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
 }
-
-.hero-section{
-    vertical-align: middle;
-    width: 50px;
-    margin-left: 20px;
-    cursor: pointer;
-    margin-right: 15px;
+.main li a {
+  padding: 10px 10px;
+  transition: ease-in all 0.1s;
 }
-
-.ins{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    color: gray;
-    width: 380px;
+.main li a:hover {
+  background-color: purple;
+  color: white;
 }
-
-.product{
-    vertical-align: middle;
-    border: none;
-    border-radius: 15px;
-    background-color: white;
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+#search {
+  font-size: 20px;
+}
+.hr {
+  padding-top: 3px;
+  background-color: purple;
+  margin-top: none;
 }
 
-.product:hover{
-    background-color: rgb(156, 149, 149);
+#menu {
+  vertical-align: middle;
+  font-size: 30px;
+  cursor: pointer;
 }
 
-.search{
-    vertical-align: middle;
-    padding-right: 40px;
-    margin-left: 330px;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    flex: 1;
+.hero-img {
+  vertical-align: middle;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 15px;
 }
 
-.search:active{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    color: purple;
-    border: 1px solid purple;
-    border-radius: 10px;
+.ins {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  color: rgb(193, 192, 192);
+  width: 380px;
 }
 
-.search2{
-    width: 25px;
-
-}
-.container{
-    background-color: #fff;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    text-align: center;
+.product {
+  vertical-align: middle;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
 }
 
-h1{
-    margin-bottom: 20px;
-    color: purple;
-    font-weight: bold;
-    text-align: left;
+.product:hover {
+  background-color: rgb(156, 149, 149);
 }
 
-.form{
-    margin-bottom: 15px;
-    text-align: left;
+.search {
+  vertical-align: middle;
+  padding-right: 40px;
+  margin-left: 330px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  flex: 1;
 }
 
-label{
-    display: block;
-    margin: 5px;
+.search:active {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: purple;
+  border: 1px solid purple;
+  border-radius: 10px;
 }
 
-input{
-    width: 500px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 9px;
-    border: none;
-    background-color: purple;
+.search2 {
+  width: 25px;
+}
+.container {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-.instruct{
-    color: rgb(180, 167, 167);
-    font-size: 13px;
-    font-family: Arial;
+h1 {
+  margin-bottom: 20px;
+  color: purple;
+  font-weight: bold;
+  text-align: left;
 }
 
-.logo{
-    margin-top: 3px;
-    background-color: black;
-    border: 1px solid rgb(173, 168, 168) ;
-    padding-top: 4px;
-    padding-bottom: 3px;
-    border-radius: 6px;
-    color: white;
-    padding-left: 80px;
-    padding-right: 80px;
+.form {
+  margin-bottom: 15px;
+  text-align: left;
 }
 
-.logo:active{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-}
-.image{
-    width:25px;
-    vertical-align: middle;
-    margin-right: 5px;
+label {
+  display: block;
+  margin: 5px;
+  font-weight: bold;
+  color: purple;
 }
 
-.go{
-    margin-top: 19px;
-    background-color: white;
-    border: 1px solid rgb(173, 168, 168);
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-radius: 5px;
-    color: grey;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-bottom:8px;
+input {
+  width: 500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 9px;
+  border: 1px solid purple;
+  background-color: purple;
 }
 
-.go:active{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+.instruct {
+  color: rgb(213, 212, 212);
+  margin-top: 5px;
+  font-size: 13px;
+  margin-left: 5px;
+  font-family: Arial;
 }
 
-.go:hover{
-    background-color:rgb(206, 252, 89);
-    border: none;
+.logo {
+  margin-top: 3px;
+  background-color: black;
+  border: 1px solid rgb(173, 168, 168);
+  padding: 10px 0;
+  width: 310px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
 }
 
-.google{
-    width: 25px;
-    vertical-align: middle;
-    margin-right: 5px;
+.logo:active {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
-.submit{
-    background-color: purple;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    cursor: pointer;
-    transition: color 0.15, background-color 0.15, box-shadow 0.15;
+#image {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
-.submit:hover{
-    color: blue;
-    background-color: aqua;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+.go {
+  margin-top: 19px;
+  background-color: white;
+  color: grey;
+  margin-bottom: 8px;
+  cursor: pointer;
 }
 
-.submit:active{
-    color: pink;
-    background-color: black;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+.go:active {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
-.hero{
-    background-color: #f4f4f4;
-    text-align: center;
+.go:hover {
+  background-color: rgb(206, 252, 89);
 }
 
-.login{
-    color: blue;
+.google {
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.submit {
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.15, background-color 0.15, box-shadow 0.15;
 }
 
-.login:active{
-    color: purple;
+.submit:hover {
+  color: blue;
+  background-color: aqua;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.final{
-    color: black;
-}
-.img2{
-    vertical-align: middle;
-    width: 60px;
-    margin-top: 5px;
-    padding-bottom: 2px;
+.submit:active {
+  color: pink;
+  background-color: black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.model{
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: purple;
-    font-weight: bold;
-    vertical-align: middle;
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
 }
 
-.p{
-    margin-bottom: 20px;
-    width: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    vertical-align: middle;
-}
-.share{
-    width: 30px;
-    vertical-align: middle;
-    margin-left: 50px;
+.login {
+  color: blue;
 }
 
-.last{
-    align-items: left;
-    margin-top: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left;
-    margin-bottom: 20px;
+.login:active {
+  color: purple;
 }
 
-.save{
-    width: 25px;
-    vertical-align: middle;
-    margin-left: 50px;
+.account {
+  margin: 0 0 10px 0;
+}
+.img2 {
+  vertical-align: middle;
+  width: 60px;
+  margin-top: 5px;
+  padding-bottom: 2px;
 }
 
-.cup{
-    vertical-align: middle;
-    width: 25px;
-    margin-left: 50px;
+.model {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: purple;
+  font-weight: bold;
+  margin-left: -870px;
+}
+
+.p {
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  vertical-align: middle;
+}
+#share {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.last {
+  align-items: left;
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.save {
+  margin: 20px 0;
+}
+#save {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+#cup {
+  vertical-align: middle;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 10px;
 }
